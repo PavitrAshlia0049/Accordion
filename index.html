@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accordion</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        .container {
+            width: 500px;
+            display: flex;
+            flex-direction: column ;
+            justify-content: center;
+            align-items: center;
+            margin: 0 auto;
+        }
+        .Box{
+            width: 100%;
+        }
+        #que{
+            height: 50px;
+            width: 100%;
+            background-color: black;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin: 10px 0;
+            color: white;
+            border-radius: 10px;
+            font-size: 1.1rem;
+            padding: 10px;
+            padding-left: 30px;
+
+        }
+        #que i{
+            cursor: pointer;
+        }
+        .ans{
+            width: 103%;
+            background-color: white;
+            border: 2px solid black;
+            padding: 10px;
+            border-radius: 10px;
+            display: none;
+            height: auto;
+        }
+        .active{
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Frequently Asked Question</h1>
+        <div class="Box">
+            <div  id="que">
+                <p>Question 1</p>
+                <div class="logo">
+                    <i class="fa-solid fa-chevron-down"></i>
+
+                </div>
+            </div>
+            <div class="ans">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, praesentium eos unde suscipit eius eveniet quidem quam ipsa velit! Ullam quae modi voluptates veritatis voluptatibus magni doloremque tempora. Nemo, mollitia!</p>
+            </div>
+            <div  id="que">
+                <p>Question 2</p>
+                <div class="logo">
+                    <i class="fa-solid fa-chevron-down"></i>
+                </div>
+            </div>
+            <div class="ans">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, praesentium eos unde suscipit eius eveniet quidem quam ipsa velit! Ullam quae modi voluptates veritatis voluptatibus magni doloremque tempora. Nemo, mollitia!</p>
+            </div>
+            <div  id="que">
+                <p>Question 3</p>
+                <div class="logo">
+                    <i class="fa-solid fa-chevron-down"></i>
+                </div>
+            </div>
+            <div class="ans">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, praesentium eos unde suscipit eius eveniet quidem quam ipsa velit! Ullam quae modi voluptates veritatis voluptatibus magni doloremque tempora. Nemo, mollitia!</p>
+            </div>
+            <div  id="que">
+                <p>Question 4</p>
+                <div class="logo">
+                    <i class="fa-solid fa-chevron-down"></i>
+                </div>
+            </div>
+            <div class="ans">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, praesentium eos unde suscipit eius eveniet quidem quam ipsa velit! Ullam quae modi voluptates veritatis voluptatibus magni doloremque tempora. Nemo, mollitia!</p>
+            </div>
+            <div  id="que">
+                <p>Question 5</p>
+                <div class="logo">
+                    <i class="fa-solid fa-chevron-down"></i>
+                </div>
+            </div>
+            <div class="ans">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, praesentium eos unde suscipit eius eveniet quidem quam ipsa velit! Ullam quae modi voluptates veritatis voluptatibus magni doloremque tempora. Nemo, mollitia!</p>
+            </div>
+
+        </div>
+        
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
